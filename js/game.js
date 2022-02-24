@@ -145,13 +145,11 @@ class Game{
        
 
         gameOver() {
-            swal({
-                title: `GameOver!`,
-                text: "Oops! Better Luck Next Time.",
-                fill(white); ,
-                confirmButtonText:"Try Again"
+            textSize(40);
+            fill("white");
+            text("gameOver",displayWidth/2-400,displayHeight/2-200);
         }
-            )}
+            
 
 
 
