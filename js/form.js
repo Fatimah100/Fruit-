@@ -55,10 +55,5 @@ class Form{
                 //reload() the window
                 window.location.reload();
               });
-            }
-
-
-
-          }
-          
+    }
 }
